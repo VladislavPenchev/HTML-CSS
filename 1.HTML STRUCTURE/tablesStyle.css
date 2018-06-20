@@ -1,0 +1,16 @@
+table,tbody,thead,tr,td,th{
+    border: 1px solid black;
+}
+
+.bold{
+    font-weight: bold;
+    text-align: center;
+}
+
+table{
+    width:400px;
+}
+
+tfoot{
+    text-align: right;
+}

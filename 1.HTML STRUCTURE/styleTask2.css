@@ -1,0 +1,33 @@
+body{
+    background: #ccc;
+}
+
+.italic-p{
+    font-style: italic;
+}
+ 
+li{
+    display: inline-block;
+    margin: 20px;
+
+}
+
+*{
+    margin-left: 0px;
+    margin-top:0px;
+}
+
+nav{
+    background: slategrey;    
+    text-align:center;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+    background: slategrey; 
+}
