@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+    background: #24437C;
+    width: 100%;
+}
+
+header ul{
+    float: right;
+}
+
+header .nav-primary li{
+    display: inline-block;
+    padding: 10px;
+
+}
+header nav ul li a{
+    text-decoration:none;
+    color: #fff;
+}
+
+.cta-btn{
+    border: 1px solid #000;
+    border-radius:10px;
+    background-color: aqua;
+}
+
+.header-title{
+    text-align:center;
+    padding-top: 200px;
+    margin:0;
+    color: #fff;
+    font-size: 50px;
+
+}
+.header-title::first-letter{
+    text-transform:uppercase;
+}
+
+.header-subtitle{
+    text-align:center;
+    color: green;
+}
+
+#button-container{
+    text-align:center;
+}
+
+#button-container .header-btn{
+    padding: 10px;
+    color: #fff;
+    
+}
+/*
+#button-container .header-btn::first-letter{
+    text-transform:uppercase;
+}
+*/
+
+u
