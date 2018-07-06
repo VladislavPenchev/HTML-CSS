@@ -49,37 +49,59 @@
 
   body{
       font-family: 'Lato',sans-serif;
-      margin: 0px;
-      background: #ff0000;
+      margin: 0px;      
+      background: url('images/food-image-bg.png');
+      background-size:cover;
       margin: auto;
 
   }
+
+.recipies-info{
+  margin:120px 0px 0px 270px;
+}
 
   main h1{
       text-transform:uppercase;
       text-align:center;
       color:#fff;
       font-size:50px;
+      float:right;
+      margin: 30px 430px 50px 0px;
   }
 
-  main p{
+  
+  main .recipies-info p{
       display: inline-block;
       padding: 20px;
-      color: #51ff00;
+      color: #fff;
+  }
+
+  main .recipies-info span{
+    color:greenyellow;    
   }
 
   main button{
       background:transparent;
-      color:#51ff00;
+      color:#fff;
       padding:20px;
       width: 250px;
       border: 1px solid #fff;
       border-radius: 45px;
+      margin:0px 0px 0px 350px;
 }
+main button:hover{
+  background-color:greenyellow;
+  border:1px solid greenyellow;
+}
+
+  main ul{
+      margin-left:600px;
+  }
 
   main ul li{
       list-style-type:none;
-      padding:20px;
+      padding:30px;
       width:800px;
+      color:#fff;
   }
 

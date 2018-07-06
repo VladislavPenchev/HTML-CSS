@@ -4,11 +4,15 @@ body{
     font-family: 'Lato', sans-serif;
     margin: 0px;
     background: #24437C;
-    width: 100%;
+
 }
 
 header ul{
     float: right;
+}
+
+nav .nav-brand{
+    margin:40px 0px 0px 40px;
 }
 
 header .nav-primary li{
@@ -19,44 +23,80 @@ header .nav-primary li{
 header nav ul li a{
     text-decoration:none;
     color: #fff;
+    text-transform: capitalize;
 }
 
 .cta-btn{
     border: 1px solid #000;
     border-radius:10px;
-    background-color: aqua;
+    background-color:#3DC1EF;
+    margin-right: 40px;
 }
 
 .header-title{
     text-align:center;
-    padding-top: 200px;
+    padding-top: 150px;
     margin:0;
     color: #fff;
     font-size: 50px;
+    text-transform:capitalize;
 
-}
-.header-title::first-letter{
-    text-transform:uppercase;
 }
 
 .header-subtitle{
     text-align:center;
-    color: green;
+    color:#5084A2;
+    margin-bottom: 50px; 
+    text-transform:capitalize;
 }
+
 
 #button-container{
     text-align:center;
+    cursor:pointer;
 }
 
 #button-container .header-btn{
     padding: 10px;
     color: #fff;
+    text-transform: capitalize;
     
 }
-/*
-#button-container .header-btn::first-letter{
-    text-transform:uppercase;
-}
-*/
 
-u
+.header-services{
+    padding: 0px;
+    text-align:center;
+
+}
+
+.header-services .service-title{
+    width: 250px;
+    color:#fff;
+    margin:0px;
+}
+
+.service{
+    width:400px;
+    display:inline-block;
+    padding: 30px;    
+}
+
+.service:hover{
+    background-color:#3DC1EF;
+    cursor:pointer;
+}
+
+.header-services .service-intro{
+    color: #fff;
+    width: 250px;
+    text-align:left;
+}
+
+.service-intro .service-link{
+    color: #fff;
+    text-decoration:none;
+    display:block;
+    padding-top:15px;
+}
+
+
