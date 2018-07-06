@@ -1,0 +1,162 @@
+body{
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    margin:0px;
+}
+
+/*NAV*/
+nav {
+    background:#BCA48D;
+    padding: 10px;
+}
+
+nav .brand{
+    float:left;
+    font-size:17px;
+    font-weight: bold;
+    color:#fff;
+    margin:0px;
+}
+
+nav .nav-primary{
+    text-align:right;
+    margin:0px;
+}
+
+nav .nav-item{
+    display:inline-block;
+    text-transform: uppercase;
+    padding: 10px;
+}
+nav .nav-item a{
+    text-decoration:none;
+    color:#fff;
+}
+
+nav .button-cta{
+    border: 2px solid #fff;
+    border-radius: 15px;
+}
+nav .button-cta:hover{
+    background-color:#867260;
+    border: 2px solid #867260;
+}
+
+/*HEADER*/
+
+header{
+    background: #BCA48D;
+    color:#fff;
+}
+
+header .header-title{
+    margin:0px;
+    text-align:center;
+    text-transform:capitalize;
+    font-weight: 40;
+}
+
+header .header-subtitle{
+    margin:0px;
+    text-align:center;
+    padding:30px 0px;
+    font-weight: 30;
+}
+
+header .header-potato{
+    width:300px;
+    display:block;
+    margin:auto;
+    padding-top:20px;
+}
+
+/*MAIN*/
+
+main .features{
+    background:url('images/potato-background.png') no-repeat;
+    background-size:cover;
+}
+
+.features .features-title{
+    margin:0px;
+    text-transform:capitalize;
+    text-align:center;
+    font-weight: 40;    
+}
+
+.features .features-subtitle{
+    margin:0px;
+    text-align:center;
+    width: 550px;
+    font-weight: 30;
+    margin:auto;
+    padding:20px 0px;
+}
+
+.features .feature-potatoes {
+    display:block;
+    margin:auto;
+}
+
+main .buy-now{
+
+}
+
+.buy-now .order-title{
+    margin:0px;
+    text-align: center;
+    text-transform:capitalize;
+    font-weight:normal;
+    font-size: 50px;
+}
+.buy-now .potato-types{
+    padding:0px;
+    margin:0px;
+    text-align:center;
+}
+
+.potato-types .potato{
+    display: inline-block;
+    padding: 10px;
+    width: 25%;
+}
+
+.potato .potato-title{
+    margin:0px; 
+    font-size: 30px;
+    font-weight: normal;
+    text-transform:capitalize;
+}
+
+.potato-features .potato-description{
+    text-decoration: none;
+    padding:10px;
+}
+
+.potato-types .btn-order{
+    border: 2px solid #9FCF3D;
+    border-radius: 50px;
+    text-transform:uppercase;
+    background:transparent;    
+    padding: 10px;
+    width: 120px;
+    color:#ACD557;
+}
+
+.potato-types .btn-order:hover{
+    color:#fff;
+    background-color:#ACD557;
+}
+
+.potato .potato-img{
+    width   : 200px;
+}
+
+/*FOOTER*/
+footer .footer-text{
+    margin:0px;
+    padding: 15px;
+    text-align:center;
+    color:#fff;
+    background-color:#867260;
+}
