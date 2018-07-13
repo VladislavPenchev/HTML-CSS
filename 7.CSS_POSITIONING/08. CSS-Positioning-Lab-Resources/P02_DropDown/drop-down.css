@@ -1,0 +1,46 @@
+body{
+    font-size : 22px;
+    text-align:center;
+    margin:0px;
+    padding:0px;
+    background: #1d211e;
+}
+
+ul{
+    background: #e67c1f;
+    margin:0px;
+    padding:0px;
+}
+
+li{
+    display:inline-block;
+    margin:15px;
+    margin-bottom: 0px;
+}
+
+a{
+    text-decoration:none;
+    color: #fff;
+}
+
+.dropdown-first, .dropdown-second{
+    display: none;
+}
+
+#web-design{
+    position: relative;
+}
+
+
+#web-design:hover .dropdown-first{
+    display:block;
+    position: absolute;
+    top: 26px;
+}
+
+#tutorials:hover .dropdown-second{
+    display: block;
+    position: absolute;
+    top: 77px;
+    left: 120px;
+}

@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,900');
+
+body{
+    font-family:'Montserrat400,900',sans-serif;
+}
+
+header{
+    background: url(images/Layer-759_02.jpg);
+    padding-top:30px;
+    height:600px;
+    text-align:center;
+}
+
+nav{
+    background:rgb(224, 146, 0);
+    width:90%;
+    margin:auto;
+    opacity:0.7;    
+}
+
+nav li {
+    display:inline-block;
+    padding:20px;
+    margin:0 45px;
+}
+nav .nav-items a{
+    text-decoration:none;
+    color:#fff;
+}
+
+header h1{
+    color: #fff;
+    font-size:50px;
+    text-transform:uppercase;
+    font-size:900;
+    margin-top:105px;
+}
+
+header p{
+    color:#fff;
+    width: 20%;
+    margin: auto;
+    margin-top:60px;
+    margin-bottom:30px;
+    font-size:20px;
+    font-weight:100;
+}
+
+header .our-service{
+    width:20px;
+    text-decoration:none;
+    color:#fff;
+    padding:10px;
+    background:#000;
+    border-radius:5px;
+    text-transform:uppercase;
+}
+
+header .our-service::after{
+    content:">";
+    color: rgb(224, 146, 0);
+}
+
+header .our-service:hover{
+    background: rgb(224, 146, 0);
+    color:#000;
+}
+
+header .our-service:hover::after{
+    content:">";
+    color: #000;
+}
+  
+.first-section{
+    text-align:center;
+}
+
+.second-section{
+    text-align:center;
+    margin:40px auto;
+}
+
+#services h2{
+    font-size:30px;
+    font-weight:700;
+    margin:30px;
+    text-align:center;
+}
+
+.first-section article , .second-section article{
+    display:inline-block;
+    width:30%;
+}
+
+i{
+    color:#fff;
+    background:#000;
+    padding:7px;
+    border-radius:50%;
+    float:left;
+    margin-right:20px;
+}
+article h3{
+    font-weight:700;
+    text-align:left;
+    margin-bottom:15px;
+}
+
+article p{
+    text-align:justify;
+    width:75%;
+    padding-left:50px;
+}
+
+#second-main-section{
+    background: url(images/steel-bg.jpg) no-repeat;
+    padding:40px;
+    text-align:center;
+    opacity:0.4;
+}
+#second-main-section h2{
+    width: 350px;
+    margin:auto;
+    font-weight:700;
+    opacity:0.7;
+}
+
+#second-main-section h2::first-line{
+    color:rgb(224, 146, 0);
+    font-size:20px;
+}
+
+#traders{
+    background: url(images/background-choose-us.jpg) no-repeat;
+    padding:80px;
+    padding-top:50px;
+    position:relative;
+    text-align:center;
+}
+
+#traders h2{
+    text-align:center;
+    color:#fff;
+    font-weight:700;
+    font-size:35px;
+    margin-bottom:20px;
+    
+}
+
+#traders article{
+    border: 1px solid sandybrown;
+    display:inline-block;
+    width:325px;
+    height:150px;
+    margin:10px;
+    color:#fff;
+    vertical-align:top;
+}
+
+
+#traders article h3 {
+    text-align:center;
+    margin:25px 0px 20px 0px;
+}
+
+#traders article p{
+    width:93%;
+    padding-left:0px;
+    margin:auto;
+    font-size:15px;
+}
+
+#seo{
+    background:url(images/consulting-woman.jpg) no-repeat;
+    height:600px;
+}
+
+#seo #container{
+    background: #fff;
+    width:600px;
+    height:90%;
+    float:right;
+    margin-right:30px;
+    margin-top:60px;
+    opacity: 0.8;
+}
+
+#seo #container p{
+    padding:80px 0px;
+    width:455px;
+    margin:auto;
+}
+
+#seo #container p:before{
+    content: open-quote; 
+    font-size:25px;
+}
+
+#seo #container p:after{
+    content: close-quote; 
+    font-size:25px;
+}
+
+#seo #name-seo{
+    width:455px;
+    background:#000;
+    height:300px;
+    color:#fff;
+    float:right;
+    position:relative;
+    top:230px;
+    left:520px;
+}
+
+#seo #name-seo >p{
+    text-align:right;
+    padding:10px;
+}
+
+#seo #name-seo .name{
+    text-align:left;
+    padding:15px;
+    font-size:25px;
+    font-weight:500;
+}
+
+footer #first-section ul{
+    width:70%;
+    margin:auto;
+    text-align:center;
+    margin-top:20px;
+}
+
+footer #first-section li{
+    display:inline-block;
+    vertical-align: top;
+    width:15%;
+    padding:5px;
+}
+
+footer #second-section{
+    background: #000;
+    margin:auto;
+}
+
+#consulting, #extra-links, #instagram-widget{
+    width:30%;
+    display:inline-block;
+    vertical-align:top;
+    height:320px;
+    color:#fff;
+    text-align:center;
+    margin:20px;
+}
+
+#consulting h2{
+    font-size:25px;
+    font-weight:700;
+}
+
+#consulting i{
+    text-align:center;
+    margin:0px;
+    margin-left:100px;
+}
+
+#consulting .consulting-paragh{
+    width:230px;
+    text-align:justify;
+    padding:10px;
+    margin:auto;
+}
+
+#consulting .links i{
+    margin:0px;    
+}
+
+#extra-links h2{
+    color:#fff;
+    font-size:25px;
+    font-weight:700;
+    margin-left:100px;
+    text-align:left;
+}
+
+#extra-links ul{
+    display:inline-block;
+    vertical-align:top;
+}
+
+#extra-links li{
+    padding: 10px;
+    text-align:left;
+}
+#extra-links li a{
+    color:orange;  
+    text-decoration:none;
+}
+
+#instagram-widget h2{
+    color:#fff;
+    text-align:left;
+    font-size:25px;
+    font-weight:700;
+    padding-bottom:10px;
+}

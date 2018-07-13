@@ -1,0 +1,35 @@
+body{
+
+}
+
+header p{
+    border: 1px solid #000000;
+    color:#fff;
+    font-size: 40px;    
+    background: burlywood;
+    padding:40px;
+    text-align:start;    
+}
+
+article ul{
+    float: left;
+}
+
+ul li{
+    background: aquamarine;
+    padding: 10px;
+    text-align:start;
+    margin:10px;
+    vertical-align:top;
+}
+
+
+footer p{
+    border: 1px solid #000000;
+    color:#fff;
+    font-size: 20px;    
+    background: burlywood;
+    padding:40px;
+    text-align:start;    
+}
+

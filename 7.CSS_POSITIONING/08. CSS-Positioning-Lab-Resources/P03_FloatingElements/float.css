@@ -1,0 +1,30 @@
+body{
+
+}
+
+div{
+    background: blueviolet; 
+    padding: 30px;
+    border-radius:10px;
+    width:130px; 
+    text-align:center;
+    font-size:18px;
+}
+
+.first{
+    float:left;
+       
+}
+
+.second{
+    float:right;
+}
+
+.third{
+    margin:auto;
+}
+
+p{
+    text-align:justify;
+    font-size:38px;
+}
