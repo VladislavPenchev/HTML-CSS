@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.5 'PT Serif', sans-serif;
+}
+
+h1 {
+    font-family: 'PT Serif', serif;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+h2:after {
+    content: '';
+    width: 30px;
+    height: 2px;
+    background: red;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    /* max-width: 1300px; */
+    max-width: auto;
+    margin: 0 auto;
+}
+
+.site-header {
+    background: red;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem 1rem;
+}
+
+.icon:after {
+    display: inline-block;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+}
+
+.icon-brands:after {
+    font-family: 'Font Awesome 5 Brands';
+}
+
+.icon-mobile:before {
+    content: '\f3cd';
+    padding-right: 0.5rem;
+}
+
+.icon-point:before {
+    content: '\f3c5';
+    padding-right: 0.5rem;
+}
+
+.icon-facebook:before {
+    content: '\f393';
+}
+
+.icon-twitter:before {
+    content: '\f099';
+}
+
+.icon-instagram:before {
+    content: '\f16d';
+}
+
+.icon-youtube:before {
+    content: '\e167';
+}
+
+.site-header {
+    color: #fff;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons li {
+    list-style: none outside;
+    padding-right: 0.7em;
+}
+
+.banner {
+    background: url('https://images.unsplash.com/photo-1554284126-aa88f22d8b74?ixlib=rb-1.2.1&auto=format&fit=crop&w=857&q=80') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 6rem;
+}
+
+.site-navigation {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.site-navigation li{
+    display: inline-block;
+}
+
+.site-navigation a{
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0.6rem 1.2rem;
+    display: inline-block;
+}
+
+.site-heading {
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 6rem 0 3rem 0;
+}
+
+.site-description {
+    font-size: 20px;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+.button {
+    text-transform: uppercase;
+    font-weight: 700;
+    background: red;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    color: #fff;
+    border: none;
+}
+
+.services {
+    padding: 3rem 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.services-list div {
+    flex: 0 0 30%;
+    text-align: center;
+}
+
+.services-list img {
+    width: 50px;
+    padding-bottom: 1rem;
+}
+
+.services-list h4 {
+    color: red;
+    padding-bottom: 1rem;
+    font-size: 18px;
+}
+
+.coaches {
+    padding: 3rem 0;
+    /* width: 90%;
+    margin: 0 auto; */
+    background: #EFEFEF;
+}
+
+.coaches img {
+    width: 250px;
+    height: 50%;
+    border-radius: 5px;
+}
+
+.coaches h4 {
+    color: #000;
+    padding-bottom: 0;
+}
+
+.sport {
+    color: red;
+    padding-bottom: 0.5em;
+}
+
+.coaches .services-list {
+    justify-content: space-around;
+}
+
+.coaches .services-list div {
+    flex: 0 0 25%;
+}
+
+.site-footer {
+    background: red;
+    text-align: center;
+    padding: 0.7rem 0;
+}

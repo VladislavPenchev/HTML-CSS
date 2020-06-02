@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* padding: 2em; */
+}
+
+html {
+    font: 14px/1.5 Verdana, sans-serif;
+}
+
+p, ul, ol {
+    padding-bottom: 1.5em;
+}
+
+body, button, input, select {
+    font: inherit;
+}
+
+.site {
+    max-width: 64em;
+    padding: 4em;
+    margin: 0 auto;
+}
+
+@media ( min-width: 85.71em ) {
+    .site {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .site-footer,
+    .site-header {
+        flex: 1 0 100%;
+    }
+
+    .site-main {
+        flex: 0 1 70%;
+        background: #F0F;
+    }
+
+    .site-sidebar {
+        flex: 0 1 30%;
+        background: #FF0;
+    }
+}

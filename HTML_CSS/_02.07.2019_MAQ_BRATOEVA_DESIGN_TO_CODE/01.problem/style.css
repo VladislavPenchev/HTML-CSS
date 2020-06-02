@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+}
+
+.container {
+    width: 50%;
+    margin: 3em;
+}
+
+.container header h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container header hr {
+    border-top: 1px solid green;
+}
+
+.container .additions {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5em;
+    font-style: italic;
+    margin-bottom: 2em;
+}
+
+.ingredians {
+    margin-bottom: 5em;
+}
+
+.ingredians ul{
+    list-style: none;
+}
+
+.ingredians .unit {
+    color: green;
+    margin-right: 0.5em;
+    font-weight: 600;
+}
+
+.description {
+    margin-bottom: 5em;
+}
+
+footer table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+footer table ,
+footer th ,
+footer td 
+{
+    border: 1px solid green;
+}
+
+footer table th {
+    padding: 0 1em;
+}
+
+footer table td {
+    text-align: center;
+}
+
+.picture {    
+    
+    width: 50%;
+}
+
+.picture img {
+    width: 53.3em;
+    height: 48.5em;
+}
